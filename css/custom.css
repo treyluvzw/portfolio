@@ -1,0 +1,105 @@
+/*CUSTOM*/
+#ftco-loader svg{display:none!important;}
+.show .fullscreen{display:none!important;}
+.overFlow{overflow:hidden!important;}
+ .textBehind .bold-text{
+	font-size:10em;
+    position: absolute;
+    top: -80px;
+    left: -50px;
+    right: 0;
+    bottom: 0;
+    font-weight: 700 !important;
+    color: rgba(255, 255, 255, 0.08);
+    text-transform: uppercase;
+}
+@media (max-width:991px){.textBehind .bold-text{display:none!important;} }
+
+.divWorqsLogo{width:20%;}
+@media (max-width:767px){.divWorqsLogo{width:50%;}}
+@media (max-width:425px){
+	.slider-text h1{font-size:30px!important;}
+	.slider-text p{font-size:14px!important;}
+	header .colorlib-navbar-brand .colorlib-logo {font-size:15px!important;}
+}
+@media (max-width:340px){
+	.slider-text h1{font-size:23px!important;}  
+	header .colorlib-navbar-brand .colorlib-logo {font-size:11px!important;}
+}
+
+@media (max-width:390px){.ftco-footer-widget .email{font-size:24px;}}
+@media (max-width:319px){.ftco-footer-widget .email{font-size:18px;}}
+/*Pagination*/
+.paginationCust a:hover{transition:all 0.7s;background:#5722a9;color:#fff!important; border:1px solid #5722a9;}
+.btnBox .btn{margin-top:110px!important;}
+@media (max-width:480px){.btnBox .btn{margin-top:50px!important;}}
+/*Navigation*/
+
+/* :: 3.8.0 Musica Button */
+.musica-btn {
+  background: #cc1573;
+  background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
+  background: linear-gradient(to right, #cc1573, #5722a9);
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  min-width: 133px;
+  height: 42px;
+  color: #ffffff;
+  border: none;
+  border-radius: 35px;
+  padding: 0 20px;
+  font-size: 12px;
+  line-height: 42px;
+  font-weight: 700;
+  text-transform: uppercase; 
+  letter-spacing:2.5px;}
+  .musica-btn:hover, .musica-btn:focus {
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 0 50px 0 rgba(250, 250, 250, 0.3)!important;
+    color: #ffffff; }
+  .musica-btn.btn-2 {
+    background: #262626; }
+    .musica-btn.btn-2:hover, .musica-btn.btn-2:focus {
+      background: #bd177a;
+      box-shadow: none;
+      color: #ffffff; }
+  .musica-btn.btn-3 {
+    color: #bd177a;
+    line-height: 42px;
+    padding: 0 15px;
+    width: 133px;
+    height: 42px;
+    border-left: 3px solid #cc1573;
+    border-right: 3px solid #5722a9;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-image: -webkit-linear-gradient(left, #cc1573 0%, #5722a9 100%), -webkit-linear-gradient(left, #cc1573 0%, #5722a9 100%);
+    background-image: linear-gradient(to right, #cc1573 0%, #5722a9 100%), linear-gradient(to right, #cc1573 0%, #5722a9 100%); }
+    .musica-btn.btn-3::after {
+      -webkit-transition-duration: 750ms;
+      transition-duration: 750ms;
+      color: #ffffff;
+      background: #cc1573;
+      background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
+      background: -webkit-linear-gradient(left, #cc1573, #5722a9);
+      background: linear-gradient(to right, #cc1573, #5722a9);
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 0;
+      visibility: hidden; }
+    .musica-btn.btn-3:hover, .musica-btn.btn-3:focus {
+      box-shadow: none;
+      color: #ffffff; }
+    .musica-btn.btn-3:hover::after, .musica-btn.btn-3:focus::after {
+      opacity: 1;
+      visibility: visible; }
